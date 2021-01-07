@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -47,10 +49,12 @@ header nav img {
 }
 
 .line {
-    width: 80%;
+    width: 95%;
     height: 10px;
     background-color: grey;
     display: block;
+    margin-top: 5px;
+    margin-bottom:5px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -92,23 +96,67 @@ header nav img {
     margin-left: 7%;
     padding: 15px;
     line-height: 1;
-}
-.list-img{
-    text-align: center;
-}
-.list-img img{
-    width: 80%;
-
-    z-index: -1;
+    font-family: 'Merriweather', serif;
+    color: gray;
 }
 
-.list-img ul{
-    display:inline-block;
-    list-style-type: square;
-    z-index: 1;
+ .list-img {
+
+    background-image: url("img/list-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 30px;
+    height: 250px;
+
+    
 }
 
-list-img ul li{
-    align-items: center;
+
+.list-img form{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 300px;
     font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+
+ }
+
+.containre{
+  
+    display: inline-flex;
+}
+.image-container{
+
+    margin: 10px 0px 10px 90px;
+}
+.text-container {
+    width: 50%;
+
+    margin : 20px 0px 10px 100px;
+    
+}
+.text-container p{
+    word-wrap:break-word;
+    white-space: normal;
+    justify-content: center;
+}
+.button-container button{
+    background:#BC7058;
+    width: 220px;
+    height: 70px;
+    margin: 20px 20px 20px 200px ;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    border: 0px solid #000;
+
+}
+.footer{
+    display: block;
+   text-align: center;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+.footer p{
+    color: gray;
 }
