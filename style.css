@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: red;
+}
+header nav{
+    display: flex;
+    
+}
+header nav img{
+   margin: 10px;
+}
+.header-text{
+    margin: 10px;
+    flex: 33.33%;
+}
+.header-icons ul{
+    padding: 15px;
+    float: right;
+}
+.header-icons ul li {
+    list-style: none;
+    text-align: end;
+    float:right;
+}
+
+.header-icons ul li img{
+    
+    margin: 1px;
+}
